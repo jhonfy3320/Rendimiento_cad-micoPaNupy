@@ -1,0 +1,46 @@
+# Ignorar entornos virtuales
+venv/
+NpyPandaAnalisisFYNEKA/bin/
+NpyPandaAnalisisFYNEKA/lib/
+NpyPandaAnalisisFYNEKA/lib64/
+NpyPandaAnalisisFYNEKA/include/
+NpyPandaAnalisisFYNEKA/pyvenv.cfg
+
+# Ignorar archivos de configuración del entorno
+*.env
+.env
+*.ini
+*.cfg
+
+# Ignorar archivos temporales y cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de bases de datos locales
+*.sqlite3
+*.db
+
+# Ignorar archivos relacionados con IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos de salida de pruebas o resultados
+*.out
+*.results
+
+# Ignorar archivos de sistema de MacOS y Windows
+.DS_Store
+Thumbs.db
+
+# Ignorar el dataset original si no se quiere versionar
+NpyPandaAnalisisFYNEKA/data/Estudiantes.csv

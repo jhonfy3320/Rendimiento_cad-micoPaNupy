@@ -1,0 +1,62 @@
+PROYECTO DE ANALISIS DE DATOS - PREDICCION DE ABANDONO ESCOLAR Y EXITO ACADEMICO
+
+1. INTRODUCCIÓN
+----------------
+Este proyecto tiene como objetivo analizar y predecir el abandono escolar y el éxito académico utilizando el dataset 'Estudiantes.csv'. El análisis se realizó con Pandas, NumPy y Matplotlib.
+
+2. ESTRUCTURA DEL PROYECTO
+---------------------------
+- NpyPandaAnalisisFYNEKA/
+    - Curso/              -> Materiales del curso
+    - Ejemplos_retos/     -> Ejemplos y retos del proyecto
+    - Proyecto/           -> Archivos específicos del análisis
+    - data/               -> Contiene 'Estudiantes.csv'
+    - bin/, etc/, include/, lib/, lib64/ -> Archivos del entorno virtual
+
+- Scrips del Curso/
+    - guardar_&_visualizar.ipynb  -> Notebook con ejemplos de visualización
+
+- README.md              -> Descripción completa del proyecto
+- requirements.txt       -> Lista de dependencias necesarias
+
+3. OBJETIVOS
+------------
+- Explorar datos para identificar patrones y relaciones.
+- Limpiar y preprocesar datos para asegurar calidad.
+- Desarrollar modelos predictivos de abandono y éxito académico.
+- Visualizar datos para una mejor interpretación.
+- Documentar y reportar hallazgos y conclusiones.
+
+4. PASOS PARA EJECUTAR EL PROYECTO
+-----------------------------------
+- Clonar el repositorio:
+  git clone https://github.com/tu_usuario/NpyPandaAnalisisFYNEKA.git
+
+- Crear y activar un entorno virtual:
+  python3 -m venv venv
+  source venv/bin/activate  # Linux/MacOS
+  venv\Scripts\activate     # Windows
+
+- Instalar dependencias:
+  pip install -r requirements.txt
+
+- Ejecutar el análisis:
+  cd Proyecto
+  python script_analisis.py
+
+5. RESUMEN DE RESULTADOS
+------------------------
+- Factores significativos en el éxito académico identificados.
+- Modelos predictivos implementados con precisiones superiores al 80%.
+- Visualizaciones clave generadas para comunicar hallazgos.
+
+6. CONTACTO Y CONTRIBUCIONES
+-----------------------------
+Desarrollado por [Tu Nombre] - [Tu Contacto]
+
+Para contribuir, abre un issue o pull request en el repositorio.
+
+7. LICENCIA
+-----------
+Este proyecto está bajo la licencia MIT.
+
